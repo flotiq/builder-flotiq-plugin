@@ -1,6 +1,6 @@
 {
   "name": "@flotiq/builder-plugin-flotiq",
-  "version": "1.0.3",
+  "version": "1.0.7",
   "description": "Fetch your Flotiq data to your Builder.io application",
   "keywords": [],
   "unpkg": "dist/plugin.system.js",
@@ -58,6 +58,9 @@
     "collectCoverageFrom": [
       "src/*.{js,ts}"
     ]
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "devDependencies": {
     "@builder.io/data-plugin-tools": "^0.0.4",
